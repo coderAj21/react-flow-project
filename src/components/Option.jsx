@@ -18,6 +18,7 @@ function Option({ data, setIsFunction }){
                             y: Number(data.positionAbsoluteY) + 10,
                 },
                 data:data.data,
+                childNodes:[],
                 isConnectable: true
             }
         ]
