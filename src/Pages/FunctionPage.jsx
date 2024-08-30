@@ -21,7 +21,7 @@ function FunctionPage({setNodes,nodes}){
                     x: 100,
                     y: 100,
                 },
-                data:"Box-"+(max+1),
+                data:type+"-"+(max+1),
                 childNodes:[],
                 isConnectable: true
             }

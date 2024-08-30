@@ -17,7 +17,7 @@ function Option({ data, setIsFunction }){
                 position: { x: Number(data.positionAbsoluteX) + 10,
                             y: Number(data.positionAbsoluteY) + 10,
                 },
-                data:data.data,
+                data: data.type+"-"+(max+1),
                 childNodes:[],
                 isConnectable: true
             }
